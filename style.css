@@ -399,6 +399,9 @@ section {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top; /* Ajusta o enquadramento para mostrar mais o topo */
+  /* ou experimente: */
+  object-position: 50% 20%; /* 50% horizontal, 20% vertical */
 }
 
 .tech-icons {
